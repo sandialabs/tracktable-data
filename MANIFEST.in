@@ -1,0 +1,2 @@
+graft tracktable-data/tracktable_data/*
+prune tracktable-data/tracktable_data/internal_test_data/GroundTruth
