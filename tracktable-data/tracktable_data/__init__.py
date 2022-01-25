@@ -34,7 +34,7 @@ the Tracktable library.
 
 """
 
-__version__ = "1.0.0"
+__version__ = "1.7.0"
 __title__ = "Tracktable Data"
 __description__ = "Tracktable Data Files"
 __url__ = "https://tracktable.sandia.gov"
