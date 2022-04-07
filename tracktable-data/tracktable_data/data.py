@@ -110,7 +110,7 @@ def retrieve(filename=None, file_ext=None, print_filenames=False, print_extensio
         try:
             return DATA_FILENAMES[filename]
         except KeyError:
-            logger.error("Unknown filename `{}`. Double check the provided filename or call `loader()` again with the `print_filenames` flag set to see all avaliable data files.".format(filename))
+            logger.error("Unknown filename `{}`. Double check the provided filename or call `retrieve()` again with the `print_filenames` flag set to see all avaliable data files.".format(filename))
             raise KeyError("See log message above.")
     elif file_ext:
         matching_files = []
@@ -119,7 +119,7 @@ def retrieve(filename=None, file_ext=None, print_filenames=False, print_extensio
                 matching_files.append(val)
 
         if not matching_files:
-            logger.error("Unknown file_ext `{}`. Double check the provided filename or call `loader()` again with the `print_extensions` flag set to see all avaliable data file extensions.".format(file_ext))
+            logger.error("Unknown file_ext `{}`. Double check the provided filename or call `retrieve()` again with the `print_extensions` flag set to see all avaliable data file extensions.".format(file_ext))
             raise LookupError("See log message above.")
         else:
             return matching_files
