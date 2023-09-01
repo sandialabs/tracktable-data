@@ -1,4 +1,4 @@
-# Copyright (c) 2014-2022 National Technology and Engineering
+# Copyright (c) 2014-2023 National Technology and Engineering
 # Solutions of Sandia, LLC. Under the terms of Contract DE-NA0003525
 # with National Technology and Engineering Solutions of Sandia, LLC,
 # the U.S. Government retains certain rights in this software.
@@ -43,4 +43,4 @@ __doc__ = __description__ + " <" + __uri__ + ">"
 __author__ = "Andy Wilson, Danny Rintoul, Chris Valicka, Ben Newton, Paul Schrum, Phil Baxley, Kat Ward, Rick Vinyard, Michael Scoggin, Michael Fadem, Geoff Danielson"
 __maintainer__ = "Andy Wilson, Michael Fadem"
 __license__ = "BSD"
-__copyright__ = "Copyright (c) 2014-2022 National Technology and Engineering Solutions of Sandia, LLC."
+__copyright__ = "Copyright (c) 2014-2023 National Technology and Engineering Solutions of Sandia, LLC."
