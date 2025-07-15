@@ -1,6 +1,59 @@
+# pyproject.toml for tracktable-data
+#
+# Build configuration first, then package metadata
+
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
-]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["tracktable-data"]
+
+[tool.setuptools]
+include-package-data = true
+
+
+[project]
+name = "tracktable-data"
+description = "Supplemental data files for Tracktable"
+version = "1.7.3.1"
+
+license = "BSD-2-Clause"
+license-files = ["LICENSE.txt", "LICENSE.html"]
+
+readme = "README.md"
+
+authors = [
+    {name = "Andy Wilson", email = "atwilso@sandia.gov"},
+    {name = "Phil Baxley", email = "pabaxle@sandia.gov"},
+    {name = "Danny Rintoul"},
+    {name = "Chris Valicka"},
+    {name = "Ben Newton"},
+    {name = "Paul Schrum"},
+    {name = "Kat Ward"},
+    {name = "Rick Vinyard"},
+    {name = "Michael Scoggin"},
+    {name = "Geoff Danielson"},
+    {name = "Michael Fadem"},
+    {name = "Diana He"}
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent"
+]
+
+requires-python = ">= 3.9"
+
+[project.urls]
+Repository = "https://github.com/sandialabs/tracktable-data"
+Issues = "https://github.com/sandialabs/tracktable-data/issues"
+
