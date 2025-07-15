@@ -26,8 +26,16 @@ readme = "README.md"
 authors = [
     {name = "Andy Wilson", email = "atwilso@sandia.gov"},
     {name = "Phil Baxley", email = "pabaxle@sandia.gov"},
+    {name = "Danny Rintoul"},
+    {name = "Chris Valicka"},
+    {name = "Ben Newton"},
+    {name = "Paul Schrum"},
+    {name = "Kat Ward"},
+    {name = "Rick Vinyard"},
+    {name = "Michael Scoggin"},
+    {name = "Geoff Danielson"},
     {name = "Michael Fadem"},
-    {name = "Diana He"},
+    {name = "Diana He"}
 ]
 
 classifiers = [
