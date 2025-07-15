@@ -34,13 +34,13 @@ the Tracktable library.
 
 """
 
-__version__ = "1.7.3"
+__version__ = "1.7.3.1"
 __title__ = "Tracktable Data"
 __description__ = "Tracktable Data Files"
 __url__ = "https://tracktable.sandia.gov"
 __uri__ = __url__
 __doc__ = __description__ + " <" + __uri__ + ">"
-__author__ = "Andy Wilson, Danny Rintoul, Chris Valicka, Ben Newton, Paul Schrum, Phil Baxley, Kat Ward, Rick Vinyard, Michael Scoggin, Michael Fadem, Geoff Danielson"
+__author__ = "Andy Wilson, Danny Rintoul, Chris Valicka, Ben Newton, Paul Schrum, Phil Baxley, Kat Ward, Rick Vinyard, Michael Scoggin, Michael Fadem, Geoff Danielson, Diana He"
 __maintainer__ = "Andy Wilson <atwilso@sandia.gov>"
 __license__ = "BSD"
-__copyright__ = "Copyright (c) 2014-2024 National Technology and Engineering Solutions of Sandia, LLC."
+__copyright__ = "Copyright (c) 2014-2025 National Technology and Engineering Solutions of Sandia, LLC."
