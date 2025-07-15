@@ -1,6 +1,4 @@
 graft tracktable-data/tracktable_data/*
 prune tracktable-data/tracktable_data/internal_test_data/GroundTruth
 prune tracktable-data/tracktable_data/python_info_data/GSHHS_shp/f
-prune tracktable-data/tracktable_data/python_info_data/GSHHS_shp/h
 prune tracktable-data/tracktable_data/python_info_data/WDBII_shp/f
-prune tracktable-data/tracktable_data/python_info_data/WDBII_shp/h
